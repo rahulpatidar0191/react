@@ -2,7 +2,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 import CommentDetail from "./CommentDetail";
-import faker from "faker";
+import faker from "faker"; //library to get fakke images/avatars
 import ApprovalCard from './ApprovalCard'
 //line 14 outer brackets tells that its a js object
 
