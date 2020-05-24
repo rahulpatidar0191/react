@@ -7,6 +7,17 @@ import ReactDom from "react-dom";
 const App = () => {
     const buttonText = {text:'Click me'}
   return (
+    <body>
+    <style>
+      iframe = [{
+      
+      }]
+    </style>
+    <h1>XHR in iframe</h1>
+    <iframe src="https://jsonplaceholder.cypress.io/"
+            data-cy="the-frame"></iframe>
+  </body>
+    /*
     <div>
       <label className="label" htmlFor="name">
         Enter name:
@@ -15,7 +26,7 @@ const App = () => {
       <button style={{ backgroundColor: 'blue', color: 'white' }}> 
         {buttonText.text}
       </button>
-    </div>
+    </div>*/
   );
 }; 
 
